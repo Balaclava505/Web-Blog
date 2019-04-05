@@ -1,0 +1,17 @@
+header {
+	 background-image:
+        linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+        ),
+        url('../img/about.jpg'); 
+}
+
+p {
+	font-size: 16px;
+}
+
+.text {
+	padding-left: 7%; 
+	padding-right: 7%; 
+}

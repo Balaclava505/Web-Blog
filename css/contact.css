@@ -1,0 +1,16 @@
+header {
+	 background-image:
+        linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+        ),
+        url('../img/phone.jpg'); 
+}
+
+.container {
+	padding: 30px;
+}
+
+form {
+	padding-top: 20px;
+}

@@ -1,0 +1,130 @@
+body {
+	margin-bottom: 50px;
+}
+
+header {
+	height: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+	margin: 0;
+}
+
+.navbar-inverse .navbar-brand:hover {
+	color:#9d9d9d;
+}
+
+.navbar-inverse {
+	background-color: transparent;
+	border-color: transparent;	
+}
+
+.navbar-fixed-top {
+	position: absolute;
+}
+
+.open>.dropdown-menu {
+	min-width: 84px;
+}
+
+.open>.dropdown-menu li:hover {
+	color: #832723;
+}
+
+@media (max-width: 767px) {	
+	.small-menu {
+		background-color: rgba(0, 0, 0, 0.5); 
+		  
+	}
+
+	.small-menu ul {
+		margin-bottom:  0px;
+	}
+
+	.small-menu ul > li > a {
+		padding: 5px 15px;
+	}
+
+	.navbar-right {
+		margin-top:  0px;
+	}
+}
+
+.navbar a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.site-heading {
+	padding-top: 21%;
+	padding-bottom: 21%;
+	color:#fbfbfb;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.site-heading h1 {
+	font-weight: bold;
+	font-size: 8vw;
+}
+
+.site-heading span {
+	font-size: 2vw;
+}
+
+
+
+.container {
+	max-width: 1000px;
+}
+
+.profile {
+	margin-top: 20px;
+}
+
+.profile aside p{
+	font-size: 12px;
+}
+
+.profile aside ul li {
+	float: left;
+}
+
+.profile aside ul {
+	list-style: none;
+	margin:auto;
+}
+
+
+.profile aside ul li img {
+  display: inline-block;
+  height: auto;
+  width: 100%;
+}
+
+.profile aside img {
+	width:100%;
+}
+
+.btn-primary {
+    background-color: #a18c25;
+    border-color: #7d6d1d;
+}
+
+.btn-primary:focus {
+	background-color: #d4b82e;
+} 
+
+footer i {
+	font-size: 28px;
+	padding: 15px; 
+}
+
+footer i:hover { 
+	color:#a18c25;
+}

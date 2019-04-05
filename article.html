@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Article</title>
+
+    <!-- Bootstrap -->
+    <link href="vendor/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" type="text/css" href="css/article.css"> 
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  	
+    {HEADER}  
+
+    <div class="container"> 
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-3 profile"> 
+          <aside class="text-center">
+            <img src="img/doge.jpg" alt="dog image" class="img-circle center">
+            <h3>Doge</h3>
+            <hr>
+          </aside>
+        </div>
+          <div class="col-md-8 col-sm-8 col-xs-8">
+            <article><h1>“The Bogey Beast” by Flora Annie Steel</h1>
+              <div class="lead">
+               <p>A woman finds a pot of treasure on the road while she is returning from work. Delighted with her luck, she decides to keep it. As she is taking it home, it keeps changing. However, her enthusiasm refuses to fade away.</p>
+
+                <p>What Is Great About It: The old lady in this story is one of the most cheerful characters anyone can encounter in English fiction. Her positive disposition (personality) tries to make every negative transformation seem like a gift, and she helps us look at luck as a matter of perspective rather than events.</p>
+              </div>
+            </article>
+
+            <div id="comments"> 
+               <h2>Comments</h2>
+               <div class="row">
+                 <div class="col-md-11">
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id risus erat.</h>
+                    <footer>
+                      <small><b>Krya Kryakovich </b>Commented on: 8 Jan 2015</small>
+                    </footer>
+                    <hr>
+                 </div>
+
+                 <form id="block">
+                   <h3>Have your say</h3>
+                   <p>
+                     <label class="sr-only">Message</label>
+                     <textarea class="form-control" placeholder="Message" id="message" required autocomplete="false"></textarea>
+                   </p>
+
+                   <p>
+                     <label class="sr-only">Full Name</label>
+                     <input type="text" class="form-control" placeholder="Full Name" required>
+                   </p>
+
+                   <p>
+                     <label class="sr-only">Email Address</label>
+                     <input type="email" class="form-control" placeholder="Email Address" required>
+                   </p>
+
+                   <p><input type="submit" class="btn btn-primary" value="Send Message"></p>
+                 </form>
+               </div>
+            </div>  
+          </div>
+        </div>
+    </div>
+
+    {FOOTER}
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="vendor/js/bootstrap.min.js"></script>
+  </body>
+</html>

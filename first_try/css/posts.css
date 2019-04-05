@@ -1,0 +1,63 @@
+body{
+
+}
+
+header {
+	 background-image:
+        linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+        ),
+        url('../img/posts.jpg'); 
+}
+
+@media (max-width: 767px) {
+	header { 
+		background-image: 
+		    linear-gradient(
+	          rgba(0, 0, 0, 0.3), 
+	          rgba(0, 0, 0, 0.3)
+	        ),
+			url('../img/posts-mobile.jpg');
+	}
+}
+
+.row header h2 {
+	margin-bottom: 0px;
+}
+
+.row article h2:hover {
+	color: #a18c25;
+}
+
+.row footer {
+	margin-bottom: 10px;
+	color:#000;
+}
+
+.lead {
+	margin-bottom: 10px;
+}
+.lead a {
+	color: #a18c25;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+  border: 1px solid #a18c25;
+  color: #a18c25;
+}
+
+.pagination>li.active>a {
+	border: 1px solid #a18c25;
+  background: #a18c25;
+  color: #fff;
+}
+
+.pagination>li.active>a:hover { 
+	background: #777;
+	border: 1px solid #525252;
+}
+
+
+

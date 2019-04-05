@@ -1,0 +1,37 @@
+form{
+	/*margin-top: 20px;*/
+	margin-left: 18px;
+}
+
+h4{
+	margin-bottom: 0px;
+}
+
+.row {
+	margin-top: 20px;
+}
+
+.row article,
+#comments {
+	margin-left: 30px; 
+}
+
+#comments {
+	margin-top: 50px;
+}
+
+#comments .row {
+	margin-top: 0px;
+}
+
+
+
+
+header {
+	 background-image:
+        linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+        ),
+        url('../img/article.jpg'); 
+}

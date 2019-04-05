@@ -1,0 +1,43 @@
+header {
+	 background-image:
+        linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+        ),
+        url('../img/about.jpg'); 
+}
+
+p {
+	font-size: 16px;
+}
+
+.row {
+	padding-left: 7%; 
+	padding-right: 7%; 
+}
+
+.person {
+	margin-top: 4%;
+	overflow: auto;
+}
+
+.person h3 {
+	font-weight: bold;
+}
+
+.person .dog:hover,
+.person .cat:hover,
+.person .duck:hover {
+	color: #a18c25;;
+}
+
+.person h5 {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.container .person img {
+	width: 200px;
+	height:200px;
+}
+
